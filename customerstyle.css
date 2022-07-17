@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Poppins:wght@100&display=swap');
+
+*{
+    box-sizing: border-box;
+  }
+  
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #e9fde4;
+    background-image: -webkit-linear-gradient(65deg, #83e38d 50%, #ff7675 50%);
+}
+
+.container{
+    padding-top: 18px;
+    width: 100vh;
+    height: 100%;
+}
+ 
+.title{
+  justify-content: space-around;
+  padding: 0;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 300;
+  line-height: 0.5px;
+}
+
+.btn{
+    padding: 15px 45px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 25px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+  }
+
+.btn-success{
+    background-color: #2ecc71!important;
+    color: #fff!important;
+    margin-left: 5px;
+    padding: 0.75rem;
+    border-radius: 25px;
+    transition: all 0.3s;
+}
+
+.btn:hover{
+    background-color: rgb(107, 235, 9);
+    color: white;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.head{
+    font-family: 'Courgette', cursive;
+    font-size: 2.5rem;
+    color: #3498db;
+    font-weight: 350;
+}
+
